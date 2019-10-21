@@ -1,0 +1,26 @@
+body {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.tree > li {
+	cursor: pointer;
+}
+
+.serach_field {
+	border-radius: 16px;
+	outline: none;
+	border: 1px solid lightgrey;
+	padding: 8px;
+	padding-left: 20px;
+	width: 170px;
+}
+
+.serach_field:focus {
+	box-shadow: 0 0px 8px lightgrey;
+}
